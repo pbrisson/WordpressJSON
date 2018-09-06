@@ -1,0 +1,20 @@
+{
+    "name": "pbrisson/wordpressjson",
+    "description": "Wordpress JSON API plugin implementation for Laravel 4.",
+    "authors": [
+        {
+            "name": "Pierre-Yves Lapointe Brisson",
+            "email": "pbrisson@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": ">=4.1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Pbrisson\\Wordpressjson": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
